@@ -42,5 +42,10 @@ public class CloneTest implements Cloneable{
 		
 		System.out.println("a.name = " + a.name);
 		System.out.println("b.name = " + b.name);
+
+		Long longA = new Long(6);
+		Long longB = new Long(6);
+		System.out.println("longA == longB?" + (longA == longB));
+		System.out.println("longA.equals(longB)?" + (longA.equals(longB)));
 	}
 }
